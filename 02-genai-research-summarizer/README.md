@@ -43,13 +43,16 @@ AI-powered research paper summarization tool designed for pharmaceutical and che
 ```bash
 pip install -r requirements.txt
 
-2. Set Up API Key
+### 2. Set Up API Key
+
 Copy# Copy example environment file
 cp .env.example .env
 
 # Add your OpenAI API key to .env
 OPENAI_API_KEY=your_key_here
-3. Run Summarizer
+
+### 3. Run Summarizer
+
 Copypython src/summarizer.py --input data/sample_paper.txt --mode concise
 Example Output
 Input: 20-page chemistry paper on drug synthesis
@@ -64,10 +67,12 @@ Output (Concise Mode):
 - Cost reduction: £12/kg → £7/kg
 
 ## Methodology
+
 - Catalysts: Pd/C in ethanol
 - Reaction conditions: 85°C, 2 bar pressure
 
 ## Significance
+
 - Scalable for industrial production
 - Environmentally friendly process
 Output (Teaching Mode):
@@ -75,14 +80,17 @@ Output (Teaching Mode):
 # Student-Friendly Summary
 
 ## What They Did
+
 Scientists found a faster way to make aspirin-like medicines.
 
 ## Why It Matters
+
 - Cheaper medicine (£5 saved per kilogram!)
 - Faster production (40% time savings)
 - Better for the environment
 
 ## Chemistry Concepts
+
 - Catalysis: Using Pd/C to speed up reactions
 - Temperature control: 85°C is optimal
 Project Structure
